@@ -1,0 +1,138 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 1em;
+  border-bottom: 2px solid #000;
+}
+
+.header > .links--wrapper {
+  display: flex;
+  gap: 1em;
+  text-decoration-line: none;
+  align-items: center;
+}
+
+.header > .links--wrapper > .header--link {
+  text-decoration-line: none;
+  color: #000;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+#header-logo {
+  font-size: 48px;
+  text-decoration-line: none;
+  color: #000;
+  font-weight: 900;
+  font-family: "Oleo Script", cursive;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 1em;
+  transition: 0.3s;
+  border: 1px solid #000;
+  text-decoration: none;
+  line-height: normal;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* FORM STYLING */
+
+.login-register-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 1rem;
+  width: 100%;
+  color: #000;
+  outline: none;
+}
+
+.form-field-wrapper {
+  margin: 1em 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 50%;
+  margin-right: 5px;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.search button {
+  padding: 8px 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-controls {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.pagination-controls button {
+  margin-left: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: medium;
+  width: 5%;
+}
+
+.pagination-controls button:disabled {
+  background-color: #808080;
+  color: #fff;
+  font-size: medium;
+  width: 5%;
+}
+
+.btn-csv {
+  margin-left: auto;
+}
+
+.btn-csv a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  #header-logo {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 95%;
+    margin: auto;
+    padding: 1em;
+  }
+}

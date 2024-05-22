@@ -1,0 +1,109 @@
+.table-wrapper {
+  /* margin: 10px 70px 70px; */
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+.table-content {
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  white-space: wrap;
+  background-color: white;
+}
+.table-content td,
+.table-content th {
+  text-align: center;
+  padding: 10px;
+}
+.table-content td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 12px;
+}
+
+.table-content th {
+  cursor: pointer;
+}
+
+.table-content th span {
+  margin-left: 5px;
+}
+/* .table-content thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+.table-content thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+} */
+.table-content tr:nth-child(even) {
+  background: #f8f8f8;
+}
+/*Responsive*/
+@media (max-width: 767px) {
+  .table-content {
+    display: block;
+    width: 100%;
+  }
+  .table-wrapper:before {
+    content: "Scroll horizontally >";
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: white;
+    padding: 0 0 10px;
+  }
+  .table-content thead,
+  .table-content tbody,
+  .table-content thead th {
+    display: block;
+  }
+  .table-content thead th:last-child {
+    border-bottom: none;
+  }
+  .table-content thead {
+    float: left;
+  }
+  .table-content tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+  }
+  .table-content td,
+  .table-content th {
+    padding: 20px 0.625em 0.625em 0.625em;
+    height: 60px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 120px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+  }
+  .table-content thead th {
+    text-align: left;
+    border-bottom: 1px solid #f7f7f9;
+  }
+  .table-content tbody tr {
+    display: table-cell;
+  }
+  .table-content tbody tr:nth-child(odd) {
+    background: none;
+  }
+  .table-content tr:nth-child(even) {
+    background: transparent;
+  }
+  .table-content tr:nth-child(odd) {
+    background: #f8f8f8;
+    border-right: 1px solid #e6e4e4;
+  }
+  .table-content tr td:nth-child(even) {
+    border-right: 1px solid #e6e4e4;
+  }
+  .table-content tbody td {
+    display: block;
+    text-align: center;
+  }
+}
