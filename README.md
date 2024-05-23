@@ -1,8 +1,26 @@
-# React + Vite
+# BookCraft build with React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Register Page
 
-Currently, two official plugins are available:
+## Login Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Admin Page
+
+## Auth build using AppWrite and hosted at Vercel
+
+Checkout the app at :
+
+- [book-craft.vercel.app](https://book-craft.vercel.app/)
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+add the dependencies: npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```

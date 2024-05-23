@@ -15,13 +15,30 @@
   color: white;
   border: none;
   cursor: pointer;
+  border: 1px solid #000;
+}
+
+.search button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .btn-csv {
   margin-left: auto;
+  border: 1px solid #000;
 }
 
 .btn-csv a {
   color: #fff;
   text-decoration: none;
+}
+
+.btn-csv a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-csv:hover {
+  background-color: #fff;
+  color: #000;
 }
