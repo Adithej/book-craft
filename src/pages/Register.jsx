@@ -8,14 +8,6 @@ const Register = () => {
   const { registerUser } = useAuth();
   const registerForm = useRef(null);
 
-  // const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   if (user) {
-  //     navigate("/");
-  //   }
-  // }, []);
-
   const handleSubmit = (e) => {
     e.preventDefault();
 

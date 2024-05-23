@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 50%;
+  margin-right: 5px;
+  padding: 8px;
+}
+
+.search button {
+  padding: 8px 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-csv {
+  margin-left: auto;
+}
+
+.btn-csv a {
+  color: #fff;
+  text-decoration: none;
+}

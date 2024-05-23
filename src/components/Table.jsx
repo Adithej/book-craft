@@ -23,7 +23,7 @@ const Table = ({ data, sorting, sortConfig }) => {
               Title {getSortIcon("title")}
             </th>
             <th onClick={() => sorting("first_publish_year")}>
-              Publish Year {getSortIcon("first_publish_year")}
+              First Publish Year {getSortIcon("first_publish_year")}
             </th>
             <th onClick={() => sorting("subject")}>
               Subject {getSortIcon("subject")}
